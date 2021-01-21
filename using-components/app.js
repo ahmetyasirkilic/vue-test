@@ -79,7 +79,7 @@ window.addEventListener('load', () => {
       }
     },
     created() {
-      fetch('data.json')
+      fetch('using-components/data.json')
         .then((res) => { return res.json() })
         .then((res) => {
           this.isLoading = false;
